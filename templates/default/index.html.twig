@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <div class="row row-wrap">
+            <div class="col-md-4" href="#">
+                <div class="product-thumb">
+                    <header class="product-header">
+                        <img src="{{ asset('content/front/img/ACETRAM.jpg') }}" style="width:100; height:250px" alt="Image Alternative text" title="The Violin">
+                    </header>
+                    <div class="product-inner">
+                        <h5 class="product-title">Acetram</h5>
+                        <p class="product-desciption">Lorem</p>
+                        <div class="product-meta">
+                            <ul class="product-price-list">
+                                <li><span class="product-price">56PKR </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="product-location"><button class="btn btn-default">Add to cart</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-thumb">
+                    <header class="product-header">
+                        <img src="{{ asset('content/front/img/Zyprexa.png') }}" style="width:100%;height:250px" alt="Image Alternative text" title="The Hidden Power of the Heart">
+                    </header>
+                    <div class="product-inner">
+                        <h5 class="product-title">Zyprexa</h5>
+                        <p class="product-desciption">Lorem</p>
+                        <div class="product-meta">
+                            <ul class="product-price-list">
+                                <li><span class="product-price">56PKR</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="product-location"><button class="btn btn-default">Add to cart</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" href="#">
+                <div class="product-thumb">
+                    <header class="product-header">
+                        <img src="{{ asset('content/front/img/Aspirine.jpg') }}" style="width:100;height:250px" alt="Image Alternative text" title="Hot mixer">
+                    </header>
+                    <div class="product-inner">
+                        <h5 class="product-title">Aspirine</h5>
+                        <p class="product-desciption">Lorem</p>
+                        <div class="product-meta">
+                            <ul class="product-price-list">
+                                <li><span class="product-price">8PKR</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="product-location"><button class="btn btn-default">Add to cart</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
